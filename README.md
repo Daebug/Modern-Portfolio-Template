@@ -60,17 +60,20 @@ portfolio-template/
 ### Installation
 
 1. **Clone or download this template**
+
    ```bash
    git clone <repository-url>
    cd tailwind-css-portfolio
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Start the development server**
+
    ```bash
    npm run dev
    ```
@@ -88,13 +91,17 @@ portfolio-template/
 ## 🎨 Customization
 
 ### 1. Personal Information
+
 Update the content in each component file to reflect your personal information:
+
 - Hero section text in `src/components/HeroSection.jsx`
 - About section in `src/components/AboutSection.jsx`
 - Contact information in `src/components/ContactSection.jsx`
 
 ### 2. Skills
+
 Modify `src/data/skillsData.js` to add/remove/update your skills:
+
 ```javascript
 {
   id: 1,
@@ -106,18 +113,24 @@ Modify `src/data/skillsData.js` to add/remove/update your skills:
 ```
 
 ### 3. Experience
+
 Update `src/data/experienceData.js` with your work experience and projects.
 
 ### 4. Blog Posts
+
 Edit `src/data/blogData.js` to showcase your articles or projects.
 
 ### 5. Profile Images
+
 Replace the profile images in the `public/` directory with your own photos:
+
 - `Profile.jpg` - Main profile image
 - `Profile1.jpg` - Alternative profile image
 
 ### 6. Styling
+
 The template uses Tailwind CSS classes. You can:
+
 - Modify existing component styles
 - Add custom CSS in `src/index.css`
 - Extend Tailwind configuration if needed
@@ -125,6 +138,7 @@ The template uses Tailwind CSS classes. You can:
 ## 📱 Responsive Design
 
 The template is fully responsive and includes:
+
 - Mobile-first approach
 - Flexible grid layouts
 - Adaptive navigation
@@ -145,32 +159,15 @@ The template is fully responsive and includes:
 ## 🚀 Deployment
 
 ### Build for Production
+
 ```bash
 npm run build
 ```
 
 The built files will be in the `dist/` directory, ready for deployment to any static hosting service like:
+
 - Netlify
 - Vercel
 - GitHub Pages
 - AWS S3
 - Firebase Hosting
-
-## 🤝 Contributing
-
-Feel free to fork this template and customize it for your needs. If you create improvements that could benefit others, consider contributing back!
-
-## 📄 License
-
-This template is open source and available under the [MIT License](LICENSE).
-
-## 🙋‍♂️ Support
-
-If you have questions or need help customizing this template, feel free to:
-- Create an issue in the repository
-- Reach out through the contact form in the template
-- Check the documentation for the technologies used
-
----
-
-**Happy coding!** 🚀 Make this template your own and showcase your amazing work to the world.
